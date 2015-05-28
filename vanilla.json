@@ -1,13 +1,81 @@
 {
   "title" : "Vanilla",
   "name" : "Vanilla",
-  "version" : "1.8",
+  "version" : "20100223",
   "minimumVersion" : 2,
   "librariesLocation" : "libraries",
   "objectsLocation" : "objects",
   "gameVersion" : "1.8",
-  "features" : [ {
-    
+  "tasks" : [ {
+    "type" : "file",
+    "hash" : "8c35b619fb0169b7d7f087246293e26d3ec494a2",
+    "location" : "8c/35/8c35b619fb0169b7d7f087246293e26d3ec494a2",
+    "to" : "config/forge.cfg",
+    "size" : 2526
+  }, {
+    "type" : "file",
+    "hash" : "e9c6c18a10a099f635858634afe794250fbb22b9",
+    "location" : "e9/c6/e9c6c18a10a099f635858634afe794250fbb22b9",
+    "to" : "config/worldedit/worldedit.properties",
+    "size" : 1031
+  }, {
+    "type" : "file",
+    "hash" : "d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "location" : "d6/44/d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "to" : "mods/FlyingCars-2.5.jar",
+    "size" : 152
+  }, {
+    "type" : "file",
+    "hash" : "d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "location" : "d6/44/d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "to" : "mods/IndustrialMachines-2.3.jar",
+    "size" : 152
+  }, {
+    "type" : "file",
+    "hash" : "d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "location" : "d6/44/d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "to" : "mods/WorldEditor-1.2.jar",
+    "size" : 152
+  }, {
+    "type" : "file",
+    "when" : {
+      "if" : "requireAny",
+      "features" : [ "CoolGrass" ]
+    },
+    "hash" : "d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "location" : "d6/44/d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "to" : "mods/CoolGrass-1.0.jar",
+    "size" : 152
+  }, {
+    "type" : "file",
+    "hash" : "d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "location" : "d6/44/d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "to" : "mods/RequiredClientLib-5.0.jar",
+    "size" : 152
+  }, {
+    "type" : "file",
+    "when" : {
+      "if" : "requireAny",
+      "features" : [ "SomeMinimap" ]
+    },
+    "hash" : "d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "location" : "d6/44/d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "to" : "mods/SomeMinimap-2.0.jar",
+    "size" : 152
+  }, {
+    "type" : "file",
+    "hash" : "6c97a7f50fe0fa46ce5492f235b51eba8b69b191",
+    "location" : "6c/97/6c97a7f50fe0fa46ce5492f235b51eba8b69b191",
+    "to" : "options.txt",
+    "size" : 303,
+    "userFile" : true
+  }, {
+    "type" : "file",
+    "hash" : "d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "location" : "d6/44/d64444560f4d81386d1a1230aebb03c1fb05624b",
+    "to" : "resourcepacks/SomeResourcePack.zip",
+    "size" : 152
+  } ],
   "versionManifest" : {
     "id" : "1.8",
     "time" : 1409646275000,
