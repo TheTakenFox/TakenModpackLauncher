@@ -2,18 +2,11 @@
     "minimumVersion": 1,
     "packages": [
         {
-            "name": "Light Modpack",
-            "title": "Light Modpack",
-            "version": "20100223",
-            "location": "lightpack.json",
+            "name": "Vanilla",
+            "title": "Vanilla",
+            "version": "1.8",
+            "location": "vanilla.json",
             "priority": 1
         },
-        {
-            "name": "Monster Modpack",
-            "title": "Monster Modpack",
-            "version": "20100223",
-            "location": "monsterpack.json",
-            "priority": 1
-        }
     ]
 }
